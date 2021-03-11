@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39a29791-8de9-47c2-a2ff-b7c4cbd988f8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pcxoDxrmwzBPJyQcNTVoNrotFq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\nopcommerce-bdd-cucumber\nopCommerce-Cucumber-Project\src\test" />
+      <recent name="C:\IdeaProjects\nopcommerce-bdd-cucumber\nopCommerce-Cucumber-Project\src\test\java\com\demo\nopcommerce" />
+      <recent name="C:\IdeaProjects\nopcommerce-bdd-cucumber\nopCommerce-Cucumber-Project\src\main\java\com\demo\nopcommerce" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39a29791-8de9-47c2-a2ff-b7c4cbd988f8" name="Default Changelist" comment="" />
+      <created>1615496352241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615496352241</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1221" y="-804" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1615498089984">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1221" y="-804" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615498089984" />
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1615497203203">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615497203203" />
+    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1615497203203">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615497203203" />
+    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1615497203203">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615497203203" />
+    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1615497203203">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615497203203" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1615496981416">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728/531.-1080.1920.1040@0.0.1366.728" timestamp="1615496981416" />
+  </component>
+</project>
