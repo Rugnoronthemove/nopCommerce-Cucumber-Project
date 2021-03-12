@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a29791-8de9-47c2-a2ff-b7c4cbd988f8" name="Default Changelist" comment="" />
+    <list default="true" id="39a29791-8de9-47c2-a2ff-b7c4cbd988f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/stepdefs/ExtraSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/stepdefs/MyStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/basepage/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/loadproperty/LoadProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/loadproperty/LoadProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/CukeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/CukeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/example.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/example.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/extentreport/extent-config.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extentreport/extent-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/propertyfile/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/propertyfile/config.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +24,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XML Properties File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,6 +39,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1pcxoDxrmwzBPJyQcNTVoNrotFq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,18 +47,44 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\Sejal-Cucumber-Project\nopCommerce-Cucumber-Project\src\test\java\com\demo\nopcommerce\cucumber\stepdefs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IdeaProjects\nopcommerce-bdd-cucumber\nopCommerce-Cucumber-Project\src\test" />
       <recent name="C:\IdeaProjects\nopcommerce-bdd-cucumber\nopCommerce-Cucumber-Project\src\test\java\com\demo\nopcommerce" />
       <recent name="C:\IdeaProjects\nopcommerce-bdd-cucumber\nopCommerce-Cucumber-Project\src\main\java\com\demo\nopcommerce" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CukeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nopCommerce-Cucumber-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.nopcommerce.cucumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.nopcommerce.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.nopcommerce.cucumber.CukeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukeTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,30 +99,51 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1221" y="-804" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1615498089984">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
     <state x="1221" y="-804" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615498089984" />
-    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1615497203203">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1615590990291">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615497203203" />
-    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1615497203203">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615590990291" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1615590990290">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615497203203" />
-    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1615497203203">
+    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615590990290" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1615590990290">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615497203203" />
-    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1615497203203">
+    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615590990290" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1615590990291">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615497203203" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615590990291" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1615496981416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/531.-1080.1920.1040@0.0.1366.728" timestamp="1615496981416" />
+    <state x="1173" y="-686" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1615590733917">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1173" y="-686" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615590733917" />
+    <state x="987" y="-821" width="672" height="678" key="search.everywhere.popup" timestamp="1615584000360">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="987" y="-821" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615584000360" />
   </component>
 </project>
