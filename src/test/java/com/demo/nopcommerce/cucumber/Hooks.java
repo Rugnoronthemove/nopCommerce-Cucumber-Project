@@ -16,6 +16,7 @@ public class Hooks extends BasePage {
     String baseUrl = loadProperty.getProperty("baseUrl");
     String browser = loadProperty.getProperty("chrome");
 
+    //Annotation from cucumber.api.java //if selected from junit will get null pointer exception
     @Before
     public void openBrowser() {
         browserSelector.selectBrowser(browser);
@@ -24,10 +25,9 @@ public class Hooks extends BasePage {
         driver.get(baseUrl);
     }
 
+    //Annotation from cucumber.api.java //if selected from junit will get null pointer exception
     @After
     public void tearDown() {
         driver.quit();
     }
-
-
 }

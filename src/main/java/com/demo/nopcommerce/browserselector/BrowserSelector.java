@@ -20,7 +20,6 @@ public class BrowserSelector extends BasePage {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             log.info("Launching Chrome Browser");
-
         } else if (browser.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().clearCache();
             WebDriverManager.firefoxdriver().setup();

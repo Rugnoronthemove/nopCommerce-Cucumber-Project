@@ -1,0 +1,7 @@
+2021-03-12 22:03:281 INFO  BrowserSelector :22 - Launching Chrome Browser
+2021-03-12 22:03:657 INFO  BrowserSelector :22 - Launching Chrome Browser
+2021-03-12 22:03:115 INFO  HomePage :23 - Clicking on login link: [[ChromeDriver: chrome on WINDOWS (fa68871cedaa8c700a21c2ad39fa51a5)] -> link text: Log in]
+2021-03-12 23:03:746 INFO  BrowserSelector :22 - Launching Chrome Browser
+2021-03-12 23:03:797 INFO  HomePage :23 - Clicking on login link: [[ChromeDriver: chrome on WINDOWS (035c90f357c9cccaa83a5da11eed50d8)] -> link text: Log in]
+2021-03-12 23:03:193 INFO  BrowserSelector :22 - Launching Chrome Browser
+2021-03-12 23:03:140 INFO  HomePage :23 - Clicking on login link: [[ChromeDriver: chrome on WINDOWS (c9ffc13cd48424e761aa9ea9ef4b899a)] -> link text: Log in]
