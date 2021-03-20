@@ -207,7 +207,7 @@ public class Utility extends BasePage {
     public void verifyTextAssertEqualsMethod(By by, String str) {
         String actualText = driver.findElement(by).getText();
         String expectedText = str;
-        Assert.assertEquals(actualText, expectedText);
+        Assert.assertEquals(expectedText,actualText);
     }
 
     /*
@@ -216,7 +216,7 @@ public class Utility extends BasePage {
     public void verifyTextAssertEqualsMethod(WebElement element, String str) {
         String actualText = element.getText();
         String expectedText = str;
-        Assert.assertEquals(actualText, expectedText);
+        Assert.assertEquals(expectedText,actualText);
     }
 
     /*
