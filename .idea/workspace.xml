@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a29791-8de9-47c2-a2ff-b7c4cbd988f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/stepdefs/ExtraSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/stepdefs/MyStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/basepage/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/loadproperty/LoadProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/loadproperty/LoadProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/CukeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/CukeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/logs/myLogs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/logs/myLogs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/utility/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/example.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/example.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/extentreport/extent-config.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extentreport/extent-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/propertyfile/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/propertyfile/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Extent_Reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +48,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,30 +113,40 @@
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
     <state x="1221" y="-804" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615498089984" />
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1615590990291">
+    <state width="1877" height="425" key="GridCell.Tab.0.bottom" timestamp="1616193072133">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615590990291" />
-    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1615590990290">
+    <state width="1877" height="425" key="GridCell.Tab.0.bottom/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616193072133" />
+    <state width="1877" height="425" key="GridCell.Tab.0.center" timestamp="1616193072132">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615590990290" />
-    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1615590990290">
+    <state width="1877" height="425" key="GridCell.Tab.0.center/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616193072132" />
+    <state width="1877" height="425" key="GridCell.Tab.0.left" timestamp="1616193072132">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615590990290" />
-    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1615590990291">
+    <state width="1877" height="425" key="GridCell.Tab.0.left/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616193072132" />
+    <state width="1877" height="425" key="GridCell.Tab.0.right" timestamp="1616193072133">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615590990291" />
-    <state x="184" y="7" key="SettingsEditor" timestamp="1615496981416">
+    <state width="1877" height="425" key="GridCell.Tab.0.right/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616193072133" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1616184654093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="7" key="SettingsEditor/0.0.1366.728/531.-1080.1920.1040@0.0.1366.728" timestamp="1615496981416" />
-    <state x="1173" y="-686" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1615590733917">
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728/531.-1080.1920.1040@0.0.1366.728" timestamp="1616184654093" />
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615753246555" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616183973323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/531.-1080.1920.1040@0.0.1366.728" timestamp="1616183973323" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615752491071" />
+    <state width="380" height="137" key="javadoc.popup.new" timestamp="1616191781256">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="1173" y="-686" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615590733917" />
+    <state width="380" height="137" key="javadoc.popup.new/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616191781256" />
+    <state x="1173" y="-686" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1616186781520">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1173" y="-686" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616186781520" />
     <state x="987" y="-821" width="672" height="678" key="search.everywhere.popup" timestamp="1615584000360">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>

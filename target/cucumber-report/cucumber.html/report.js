@@ -1,85 +1,137 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/com/demo/nopcommerce/featurefile/example.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/com/demo/nopcommerce/featurefile/login.feature");
 formatter.feature({
-  "comments": [
-    {
-      "line": 1,
-      "value": "#@Registration"
-    }
-  ],
-  "line": 2,
-  "name": "User Registration",
-  "description": "",
-  "id": "user-registration",
+  "line": 1,
+  "name": "User Login",
+  "description": "As a Registered User\r\nI want to specify log in condition",
+  "id": "user-login",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 41130153100,
+  "duration": 45142547900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 4,
-  "name": "Click on Home page links",
+  "line": 5,
+  "name": "Login page",
   "description": "",
-  "id": "user-registration;click-on-home-page-links",
+  "id": "user-login;login-page",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "I am on Home page",
+  "line": 6,
+  "name": "User is on home page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
-  "name": "I wait for two seconds",
-  "keyword": "And "
-});
-formatter.step({
   "line": 7,
-  "name": "I click Login link on Home page",
+  "name": "Login link  is present on the page",
   "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "Text \"Welcome, Please Sign In!\" is visible on the relevant page",
+  "name": "User clicks on the log in link",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User should navigate to relative page",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 10,
+  "name": "User should navigate to login page as should see \"Welcome, Please Sign In\" message",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "User enters \"abc123@gmail.com\" in user Field",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 12,
+  "name": "User enters \"abc123\" in password field",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "User clicks on Login button",
+  "keyword": "And "
+});
 formatter.match({
-  "location": "MyStepDefs.iAmOnHomePage()"
+  "location": "LoginSteps.userIsOnHomePage()"
 });
 formatter.result({
-  "duration": 1993809900,
+  "duration": 1430675900,
   "status": "passed"
 });
 formatter.match({
-  "location": "ExtraSteps.iWaitForTwoSeconds()"
+  "location": "LoginSteps.loginLinkIsPresentOnThePage()"
 });
 formatter.result({
-  "duration": 95200,
+  "duration": 31100,
   "status": "passed"
 });
 formatter.match({
-  "location": "MyStepDefs.iClickLoginLinkOnHomePage()"
+  "location": "LoginSteps.userClicksOnTheLogInLink()"
 });
 formatter.result({
-  "duration": 13377903100,
+  "duration": 2739788800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.userShouldNavigateToRelativePage()"
+});
+formatter.result({
+  "duration": 50300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Welcome, Please Sign In!",
-      "offset": 6
+      "val": "Welcome, Please Sign In",
+      "offset": 50
     }
   ],
-  "location": "MyStepDefs.textIsVisibleOnTheRelevantPage(String)"
+  "location": "LoginSteps.userShouldNavigateToLoginPageAsShouldSeeMessage(String)"
 });
 formatter.result({
-  "duration": 10882800,
-  "status": "passed"
+  "duration": 301622300,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c...come, Please Sign In[]\u003e but was:\u003c...come, Please Sign In[!]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.demo.nopcommerce.utility.Utility.verifyTextAssertEqualsMethod(Utility.java:219)\r\n\tat com.demo.nopcommerce.pages.LoginPage.verifyWelcomeTextOnLoginPage(LoginPage.java:25)\r\n\tat com.demo.nopcommerce.cucumber.stepdefs.LoginSteps.userShouldNavigateToLoginPageAsShouldSeeMessage(LoginSteps.java:70)\r\n\tat ✽.And User should navigate to login page as should see \"Welcome, Please Sign In\" message(src/test/java/com/demo/nopcommerce/featurefile/login.feature:10)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "abc123@gmail.com",
+      "offset": 13
+    }
+  ],
+  "location": "LoginSteps.userEntersInUserField(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "abc123",
+      "offset": 13
+    }
+  ],
+  "location": "LoginSteps.userEntersInPasswordField(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "LoginSteps.userClicksOnLoginButton()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 1876946200,
+  "duration": 2074158400,
   "status": "passed"
 });
 });

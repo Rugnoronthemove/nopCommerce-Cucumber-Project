@@ -7,6 +7,15 @@ Feature: User Registration
     And   I click Login link on Home page
     Then  Text "Welcome, Please Sign In!" is visible on the relevant page
 
+#  Scenario Outline: Click on Home page links
+#    Given I click "<link>" on Home page
+#    Then  User should be navigated to relevant page
+#    Then  Text "<pageText>" is visible on the relevant page
+#
+#    Examples:
+#      | link  | pageText                   |
+#      | Login | "Welcome, Please Sign In!" |
+
 #  User registration on zoopla using google sign on
 #
 #  Background:
