@@ -3,9 +3,52 @@ package com.demo.nopcommerce.utility;
 import com.demo.nopcommerce.basepage.BasePage;
 import org.junit.Assert;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Utility extends BasePage {
+
+    /*
+     * This method will generate explicit wait
+     */
+    public void explicitWaitSeconds(int seconds, By by) {
+        driver.findElement(by);
+        WebDriverWait wait = new WebDriverWait(driver, seconds);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+    }
+
+    /*
+     * This method will make the web driver wait until element become clickable
+     */
+    public void waitUntilElementToBeClickable(By by, int timeout) {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(by)));
+    }
+
+    /*
+     * This method will make the web driver wait until WebElement become clickable
+     */
+    public void waitUntilElementToBeClickable(WebElement element, int timeout) {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+
+    /*
+     * This method will  make the web driver wait until presence of element is located by locator
+     */
+    public void waitUntilPresenceOfElementLocated(By by, int timeout) {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+        wait.until(ExpectedConditions.presenceOfElementLocated(by));
+    }
+
+    /*
+     * This method will  make the web driver wait until visibility of element is located by locator
+     */
+    public void waitUntilVisibilityOfElementLocated(By by, int timeout) {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+    }
 
     /*
      * This method will click on element
