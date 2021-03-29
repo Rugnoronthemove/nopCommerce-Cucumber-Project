@@ -60,4 +60,28 @@ public class LoginSteps {
         new LoginPage().verifyWelcomeTextOnLoginPage(loginPageMsg);
 
     }
+
+    @Then("^User should should see \"([^\"]*)\" the error message$")
+    public void userShouldShouldSeeTheErrorMessage(String errorMsg) {
+        new LoginPage().verifyErrorMessageWhenLoginIsUnsuccessful(errorMsg);
+    }
+
+    @Given("^User is on login page$")
+    public void userIsOnLoginPage() {
+    }
+
+    @Then("^Password field is displayed$")
+    public void passwordFieldIsDisplayed() {
+        new LoginPage().passwordFieldIsDisplayed();
+    }
+
+    @Then("^Remember me check box is enabled$")
+    public void rememberMeCheckBoxIsEnabled() {
+        new LoginPage().verifyRemberMeCheckboxisEnabled();
+    }
+
+    @Then("^Please enter your email address message is visible$")
+    public void pleaseEnterYourEmailAddressMessageIsVisible() {
+        new LoginPage().verifyEmailErrorMessageIsDisplayed();
+    }
 }

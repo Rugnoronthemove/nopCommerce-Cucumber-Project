@@ -52,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Mar 19, 2021 10:34:15 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Mar 29, 2021 11:17:18 PM</span>
 				</a>
 			</li>
 			<li>
@@ -79,7 +79,6 @@
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
 						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -160,10 +159,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>4</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='80%'><span class='strong'>4</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='12.5%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='37.5%'>3</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='20%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -179,16 +178,16 @@
 				
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>User Login</span>
-						<span class='test-time'>Mar 19, 2021 10:34:16 PM</span>
+						<span class='test-name'>Login feature with Background</span>
+						<span class='test-time'>Mar 29, 2021 11:17:18 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 0m 50s+343ms</span>
+	<span class='duration right label'>0h 0m 36s+389ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">Login page</span>
+		<span class="desc-text">Verify that password field is displayed on Login Page</span>
 	</div>
 	<ul class='steps'>
 		<li test-id='3' class='node given pass' status='pass'>
@@ -200,68 +199,67 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='4' class='node and pass' status='pass'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And Login link  is present on the page</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='5' class='node and pass' status='pass'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And User clicks on the log in link</span>
-				<div class='pre'>Clicking on login link: [[ChromeDriver: chrome on WINDOWS (9194e631399f3c9db26d2e683f50ad03)] -> link text: Log in]</div>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='6' class='node then pass' status='pass'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then User should navigate to relative page</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='7' class='node and fail' status='fail'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And User should navigate to login page as should see "Welcome, Please Sign In" message</span>
-				<div class='pre'><textarea>org.junit.ComparisonFailure: expected:<...come, Please Sign In[]> but was:<...come, Please Sign In[!]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.demo.nopcommerce.utility.Utility.verifyTextAssertEqualsMethod(Utility.java:219)
-	at com.demo.nopcommerce.pages.LoginPage.verifyWelcomeTextOnLoginPage(LoginPage.java:25)
-	at com.demo.nopcommerce.cucumber.stepdefs.LoginSteps.userShouldNavigateToLoginPageAsShouldSeeMessage(LoginSteps.java:70)
-	at ✽.And User should navigate to login page as should see "Welcome, Please Sign In" message(src/test/java/com/demo/nopcommerce/featurefile/login.feature:10)
-</textarea></div>
-			
-		</li>
-		<li test-id='8' class='node when skip' status='skip'>
+		<li test-id='4' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
-			<span class="bdd-step-name">When User enters "abc123@gmail.com" in user Field</span>
-				<div class='pre'>skipped</div>
+			<span class="bdd-step-name">When User clicks on the log in link</span>
+				<div class='pre'>Clicking on login link: [[ChromeDriver: chrome on WINDOWS (7cc2835c630464ee8e001807f7aed532)] -> link text: Log in]</div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='9' class='node and skip' status='skip'>
+		<li test-id='5' class='node then pass' status='pass'>
 			
-			<b>And</b>
+			<b>Then</b>
 			
-			<span class="bdd-step-name">And User enters "abc123" in password field</span>
-				<div class='pre'>skipped</div>
+			<span class="bdd-step-name">Then User should navigate to login page as should see "Welcome, Please Sign In!" message</span>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='10' class='node and skip' status='skip'>
+		<li test-id='6' class='node given pass' status='pass'>
 			
-			<b>And</b>
+			<b>Given</b>
 			
-			<span class="bdd-step-name">And User clicks on Login button</span>
-				<div class='pre'>skipped</div>
+			<span class="bdd-step-name">Given User is on login page</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='7' class='node then fail' status='fail'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then Please enter your email address message is visible</span>
+				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#Email\-error"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3M1HFB0', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HEMALS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cc2835c630464ee8e001807f7aed532
+*** Element info: {Using=id, value=Email-error}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at com.demo.nopcommerce.utility.Utility.elementIsDisplayed(Utility.java:163)
+	at com.demo.nopcommerce.pages.LoginPage.verifyEmailErrorMessageIsDisplayed(LoginPage.java:33)
+	at com.demo.nopcommerce.cucumber.stepdefs.LoginSteps.pleaseEnterYourEmailAddressMessageIsVisible(LoginSteps.java:86)
+	at ✽.Then Please enter your email address message is visible(src/test/java/com/demo/nopcommerce/featurefile/accountHome.feature:11)
+</pre></div>
 			
 		</li>
 	</ul>
@@ -321,7 +319,7 @@
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.junit.ComparisonFailure</span>
+                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -336,16 +334,39 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Mar 19, 2021 10:35:06 PM</td>
-                                                        <td class='linked' test-id='7'>User Login.Login page.And User should navigate to login page as should see "Welcome, Please Sign In" message</td>
-                                                        <td><pre><textarea>org.junit.ComparisonFailure: expected:<...come, Please Sign In[]> but was:<...come, Please Sign In[!]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.demo.nopcommerce.utility.Utility.verifyTextAssertEqualsMethod(Utility.java:219)
-	at com.demo.nopcommerce.pages.LoginPage.verifyWelcomeTextOnLoginPage(LoginPage.java:25)
-	at com.demo.nopcommerce.cucumber.stepdefs.LoginSteps.userShouldNavigateToLoginPageAsShouldSeeMessage(LoginSteps.java:70)
-	at ✽.And User should navigate to login page as should see "Welcome, Please Sign In" message(src/test/java/com/demo/nopcommerce/featurefile/login.feature:10)
-</textarea></pre></td>
+                                                        <td>Mar 29, 2021 11:17:44 PM</td>
+                                                        <td class='linked' test-id='7'>Login feature with Background.Verify that password field is displayed on Login Page.Then Please enter your email address message is visible</td>
+                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#Email\-error"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3M1HFB0', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HEMALS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cc2835c630464ee8e001807f7aed532
+*** Element info: {Using=id, value=Email-error}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at com.demo.nopcommerce.utility.Utility.elementIsDisplayed(Utility.java:163)
+	at com.demo.nopcommerce.pages.LoginPage.verifyEmailErrorMessageIsDisplayed(LoginPage.java:33)
+	at com.demo.nopcommerce.cucumber.stepdefs.LoginSteps.pleaseEnterYourEmailAddressMessageIsVisible(LoginSteps.java:86)
+	at ✽.Then Please enter your email address message is visible(src/test/java/com/demo/nopcommerce/featurefile/accountHome.feature:11)
+</pre></pre></td>
                                                     </tr>
                                         </tbody>
                                     </table>
@@ -383,25 +404,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>8</div>
+					<div class='panel-lead'>5</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 19, 2021 10:34:15 PM</div>
+					<div class='panel-lead'>Mar 29, 2021 11:17:18 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 19, 2021 10:35:09 PM</div>
+			 		<div class='panel-lead'>Mar 29, 2021 11:17:58 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>53,103ms</div>
+					<div class='panel-lead'>39,975ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -472,9 +493,9 @@
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 3,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 4,
+				exceptionsGrandChild: 1,
 			};
 		</script>
 		

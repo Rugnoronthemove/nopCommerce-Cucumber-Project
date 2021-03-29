@@ -1,11 +1,20 @@
 package com.demo.nopcommerce.utility;
 
 import com.demo.nopcommerce.basepage.BasePage;
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
+import java.util.List;
 
 public class Utility extends BasePage {
 
@@ -186,6 +195,7 @@ public class Utility extends BasePage {
      * @return type method
      */
     public boolean elementIsSelected(WebElement element) {
+//       return element.isSelected();
         if (element.isSelected()) {
             return true;
         } else {
@@ -280,4 +290,171 @@ public class Utility extends BasePage {
         Assert.assertTrue(str, actualText.contains(expectedText));
     }
 
+    /*
+     * This method will store elements in the form of Array list
+     * and then help sort the lists by ascending/descending order for String or alphabetical values
+     */
+
+    public void arrayListForEachLoopAssertEqualsForString(By by) {
+
+        List<String> originalList = new ArrayList<>();
+
+        List<WebElement> storedList = driver.findElements(by);
+
+        for (WebElement element : storedList) {
+            originalList.add(element.getText());
+        }
+
+        List<String> tempList = new ArrayList<>();
+        tempList.addAll(originalList);
+        System.out.println("Expected result: " + originalList);
+        Collections.sort(tempList);
+        System.out.println("Actual result: " + tempList);
+        Assert.assertEquals(originalList, tempList);
+    }
+
+    /*
+     * This method will store elements in the form of Array list
+     * and then help sort the lists by ascending/descending order for String or alphabetical values
+     */
+
+    public void arrayListForEachLoopAssertEqualsForString(List<WebElement> element) {
+
+        List<String> originalList = new ArrayList<>();
+
+        List<WebElement> storedList = element;
+
+        for (WebElement element1 : storedList) {
+            originalList.add(element1.getText());
+        }
+
+        List<String> tempList = new ArrayList<>();
+        tempList.addAll(originalList);
+        System.out.println("Expected result: " + originalList);
+        Collections.sort(tempList);
+        System.out.println("Actual result: " + tempList);
+        Assert.assertEquals(originalList, tempList);
+    }
+
+    /*
+     * This method will generate random numbers
+     * @return type method
+     */
+    public static String getRandomNumber(int length) {
+        StringBuilder sb = new StringBuilder();
+        String characters = "1234567890";
+        for (int i = 0; i < length; i++) {
+            int index = (int) (Math.random() * characters.length());
+            sb.append(characters.charAt(index));
+        }
+        return sb.toString();
+    }
+
+    /*
+     * This method will generate random string
+     * @return type method
+     */
+    public static String getRandomString(int length) {
+        StringBuilder sb = new StringBuilder();
+        String characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        for (int i = 0; i < length; i++) {
+            int index = (int) (Math.random() * characters.length());
+            sb.append(characters.charAt(index));
+        }
+        return sb.toString();
+    }
+
+
+    /*
+     * This method will return current Time stamp
+     * @return type method
+     */
+    public static String currentTimeStamp() {
+        Date d = new Date();
+        return d.toString().replace(":", "_").replace(" ", "_");
+    }
+
+    /*
+     * This method will take the screenshot and add to screenshot folder
+     * This method will required parameter like screenshot name and return destination path
+     *
+     * @parameter driver
+     * @parameter screenshotName
+     * @return type method
+     */
+    public static String getScreenshot(WebDriver driver, String screenshotName) {
+        String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+
+        // After execution, you could see a folder "FailedTestsScreenshots" under screenshot folder
+        String destination = System.getProperty("user.dir") + "/src/main/java/com/demo/nopcommerce/screenshots/" + screenshotName + dateName + ".png";
+        File finalDestination = new File(destination);
+        try {
+            FileUtils.copyFile(source, finalDestination);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return destination;
+    }
+
+    /*
+     *  This method will take ScreenShot with current Time Stamp and returns screen shots path
+     */
+
+    /*
+     * This method will take the screenshot and add to test-output/html folder
+     * This method will required parameter like screenshot name and return the destination path
+     *
+     * @parameter fileName
+     * @return type method
+     */
+    public static String takeScreenShot(String fileName) {
+        String filePath = System.getProperty("user.dir") + "/test-output/html/";
+        TakesScreenshot screenshot = (TakesScreenshot) driver;
+        File scr1 = screenshot.getScreenshotAs(OutputType.FILE);
+        String imageName = fileName + currentTimeStamp() + ".jpg";
+        String destination = filePath + imageName;
+        try {
+            FileUtils.copyFile(scr1, new File(destination));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return destination;
+    }
+
+    /*
+     * This method will take screen shot and store into screenshot folder
+     */
+    public static void takeScreenShot() {
+        String filePath = System.getProperty("user.dir") + "/src/main/java/com/demo/nopcommerce/screenshots/";
+        TakesScreenshot screenshot = (TakesScreenshot) driver;
+        File scr1 = screenshot.getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(scr1, new File(filePath + getRandomString(10) + ".jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /*
+     * This method will stop the programme execution on a given element for milliseconds
+     */
+    public void sleepMethod(int millisec) throws InterruptedException {
+        Thread.sleep(millisec);
+    }
+
+    /*
+    Variable js declared globally to enable using
+     JavascriptExecutor method for window scrolling
+     */
+    private JavascriptExecutor js;
+
+    /*
+     * This method will enable scrolling the browser window up, down & sideways
+     */
+    public void windowScrollUpOrDown(int x, int y) {
+        js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(" + x + "," + y + ");");
+    }
 }
