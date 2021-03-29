@@ -1,11 +1,10 @@
-#@Registration
-Feature: User Registration
-
-  Scenario: Click on Home page links
-    Given I am on Home page
-    And   I wait for two seconds
-    And   I click Login link on Home page
-    Then  Text "Welcome, Please Sign In!" is visible on the relevant page
+#Feature: User Registration
+#
+#  Scenario: Click on Home page links
+#    Given I am on Home page
+#    And   I wait for two seconds
+#    And   I click Login link on Home page
+#    Then  Text "Welcome, Please Sign In!" is visible on the relevant page
 
 #  Scenario Outline: Click on Home page links
 #    Given I click "<link>" on Home page

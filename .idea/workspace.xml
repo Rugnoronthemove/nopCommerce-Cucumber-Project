@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a29791-8de9-47c2-a2ff-b7c4cbd988f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/accountHome.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/logs/myLogs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/logs/myLogs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/utility/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/stepdefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/stepdefs/LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/example.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/example.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/propertyfile/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/propertyfile/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Extent_Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Extent_Reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/utility/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/utility/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/formatter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/jquery-1.8.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/nopcommerce/cucumber/stepdefs/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demo/nopcommerce/cucumber/stepdefs/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/propertyfile/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/propertyfile/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +62,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\IdeaProjects\Sejal-Cucumber-Project\nopCommerce-Cucumber-Project\src\test\java\com\demo\nopcommerce\cucumber\stepdefs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IdeaProjects\nopcommerce-bdd-cucumber\nopCommerce-Cucumber-Project\src\test" />
       <recent name="C:\IdeaProjects\nopcommerce-bdd-cucumber\nopCommerce-Cucumber-Project\src\test\java\com\demo\nopcommerce" />
       <recent name="C:\IdeaProjects\nopcommerce-bdd-cucumber\nopCommerce-Cucumber-Project\src\main\java\com\demo\nopcommerce" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\Sejal-Cucumber-Project\nopCommerce-Cucumber-Project\src\test\java\com\demo\nopcommerce\featurefile" />
+      <recent name="C:\IdeaProjects\Sejal-Cucumber-Project\nopCommerce-Cucumber-Project\src\test\java\com\demo\nopcommerce\cucumber\stepdefs" />
     </key>
   </component>
   <component name="RunManager">
@@ -75,6 +87,34 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="clean" />
+                <option value="test" />
+                <option value="-Dcucumber.options=--tags @registerLink" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -109,47 +149,57 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1221" y="-804" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1615498089984">
+    <state x="1221" y="-804" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1617057109576">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="1221" y="-804" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615498089984" />
-    <state width="1877" height="425" key="GridCell.Tab.0.bottom" timestamp="1616193072133">
+    <state x="1221" y="-804" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617057109576" />
+    <state x="1167" y="-899" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617052188740">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="425" key="GridCell.Tab.0.bottom/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616193072133" />
-    <state width="1877" height="425" key="GridCell.Tab.0.center" timestamp="1616193072132">
+    <state x="1167" y="-899" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617052188740" />
+    <state width="1877" height="405" key="GridCell.Tab.0.bottom" timestamp="1617056599232">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="425" key="GridCell.Tab.0.center/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616193072132" />
-    <state width="1877" height="425" key="GridCell.Tab.0.left" timestamp="1616193072132">
+    <state width="1877" height="405" key="GridCell.Tab.0.bottom/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617056599232" />
+    <state width="1877" height="405" key="GridCell.Tab.0.center" timestamp="1617056599231">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="425" key="GridCell.Tab.0.left/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616193072132" />
-    <state width="1877" height="425" key="GridCell.Tab.0.right" timestamp="1616193072133">
+    <state width="1877" height="405" key="GridCell.Tab.0.center/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617056599231" />
+    <state width="1877" height="405" key="GridCell.Tab.0.left" timestamp="1617056599231">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="425" key="GridCell.Tab.0.right/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616193072133" />
-    <state x="184" y="7" key="SettingsEditor" timestamp="1616184654093">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="405" key="GridCell.Tab.0.left/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617056599231" />
+    <state width="1877" height="405" key="GridCell.Tab.0.right" timestamp="1617056599232">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="405" key="GridCell.Tab.0.right/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617056599232" />
+    <state x="790" y="-1070" key="SettingsEditor" timestamp="1617045189735">
+      <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/531.-1080.1920.1040@0.0.1366.728" timestamp="1616184654093" />
+    <state x="790" y="-1070" key="SettingsEditor/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617045189735" />
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615753246555" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616183973323">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/531.-1080.1920.1040@0.0.1366.728" timestamp="1616183973323" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615752491071" />
-    <state width="380" height="137" key="javadoc.popup.new" timestamp="1616191781256">
+    <state x="1064" y="-810" key="com.intellij.ide.util.TipDialog" timestamp="1617043994007">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="380" height="137" key="javadoc.popup.new/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616191781256" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/531.-1080.1920.1040@0.0.1366.728" timestamp="1616183973323" />
+    <state x="1064" y="-810" key="com.intellij.ide.util.TipDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617043994007" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615752491071" />
+    <state x="1187" y="-962" width="607" height="804" key="find.popup" timestamp="1617047007853">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1187" y="-962" width="607" height="804" key="find.popup/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617047007853" />
+    <state width="380" height="137" key="javadoc.popup.new" timestamp="1617057314348">
+      <screen x="531" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="380" height="137" key="javadoc.popup.new/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617057314348" />
     <state x="1173" y="-686" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1616186781520">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
     <state x="1173" y="-686" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1616186781520" />
-    <state x="987" y="-821" width="672" height="678" key="search.everywhere.popup" timestamp="1615584000360">
+    <state x="987" y="-821" width="672" height="678" key="search.everywhere.popup" timestamp="1617046945333">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="987" y="-821" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1615584000360" />
+    <state x="987" y="-821" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617046945333" />
   </component>
 </project>

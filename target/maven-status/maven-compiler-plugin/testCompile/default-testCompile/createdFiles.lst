@@ -1,0 +1,6 @@
+com\demo\nopcommerce\cucumber\stepdefs\RegistrationSteps.class
+com\demo\nopcommerce\cucumber\Hooks.class
+com\demo\nopcommerce\cucumber\CukeTest.class
+com\demo\nopcommerce\cucumber\stepdefs\ExtraSteps.class
+com\demo\nopcommerce\cucumber\stepdefs\LoginSteps.class
+com\demo\nopcommerce\cucumber\stepdefs\MyStepDefs.class
