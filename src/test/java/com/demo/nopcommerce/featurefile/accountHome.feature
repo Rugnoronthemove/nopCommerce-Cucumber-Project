@@ -1,13 +1,13 @@
-Feature: Login feature with Background
-
-  Background:
-    Given User is on home page
-    When User clicks on the log in link
-    Then User should navigate to login page as should see "Welcome, Please Sign In!" message
-
-Scenario: Verify that password field is displayed on Login Page
-  Given User is on login page
-  Then  Please enter your email address message is visible
+#Feature: Login feature with Background
+#
+#  Background:
+#    Given User is on home page
+#    When User clicks on the log in link
+#    Then User should navigate to login page as should see "Welcome, Please Sign In!" message
+#
+#  Scenario: Verify that password field is displayed on Login Page
+#    Given User is on login page
+#    Then  Please enter your email address message is visible
 
 #  Scenario: Verify the error message when login fails
 #    Given User enters "xyz@gmail.com" in user Field

@@ -54,3 +54,11 @@
 2021-03-29 23:03:195 INFO  HomePage :24 - Clicking on login link: [[ChromeDriver: chrome on WINDOWS (9607ae65691e7be41bc58ae2bd042334)] -> link text: Log in]
 2021-03-29 23:03:825 INFO  BrowserSelector :22 - Launching Chrome Browser
 2021-03-29 23:03:340 INFO  HomePage :24 - Clicking on login link: [[ChromeDriver: chrome on WINDOWS (7cc2835c630464ee8e001807f7aed532)] -> link text: Log in]
+2021-04-12 20:04:668 INFO  BrowserSelector :22 - Launching Chrome Browser
+2021-04-12 20:04:537 INFO  HomePage :30 - Clicking on register link: [[ChromeDriver: chrome on WINDOWS (1b9a5811d78dc956dc0a0c6913936886)] -> xpath: //a[@class='ico-register']]
+2021-04-12 20:04:153 INFO  BrowserSelector :22 - Launching Chrome Browser
+2021-04-12 20:04:505 INFO  HomePage :30 - Clicking on register link: [[ChromeDriver: chrome on WINDOWS (42d5ca6aa542a3bc79ce1e02376c6f18)] -> xpath: //a[@class='ico-register']]
+2021-04-12 21:04:922 INFO  BrowserSelector :22 - Launching Chrome Browser
+2021-04-12 21:04:847 INFO  HomePage :24 - Clicking on login link: [[ChromeDriver: chrome on WINDOWS (37e2bd55034e6f64916d0e81c664d0ac)] -> link text: Log in]
+2021-04-12 21:04:390 INFO  BrowserSelector :22 - Launching Chrome Browser
+2021-04-12 21:04:129 INFO  HomePage :24 - Clicking on login link: [[ChromeDriver: chrome on WINDOWS (a41fb1e9df0ab9d7a7f0451675d64ec6)] -> link text: Log in]

@@ -1,11 +1,15 @@
 package com.demo.nopcommerce.cucumber;
 
+import com.cucumber.listener.Reporter;
 import com.demo.nopcommerce.basepage.BasePage;
 import com.demo.nopcommerce.browserselector.BrowserSelector;
 import com.demo.nopcommerce.loadproperty.LoadProperty;
+import com.demo.nopcommerce.utility.Utility;
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class Hooks extends BasePage {
@@ -26,8 +30,18 @@ public class Hooks extends BasePage {
     }
 
     //Annotation from cucumber.api.java //if selected from junit will get null pointer exception
+    //if Scenario is failing to take screenshot adding parameter as Scenario from cucumber
     @After
-    public void tearDown() {
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            //declaring variable of screenShotPath & getting method from Utility, replacing spaces " " in Scenario with "_"
+            String screenShotPath = Utility.getScreenshot(driver, scenario.getName().replace(" ","_"));
+            try {
+                Reporter.addScreenCaptureFromPath(screenShotPath);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
         driver.quit();
     }
 }
