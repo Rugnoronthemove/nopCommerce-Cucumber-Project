@@ -5,21 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/logs/myLogs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/logs/myLogs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/CukeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/CukeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/cucumber/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/accountHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/accountHome.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/featurefile/registration.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Extent_Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Extent_Reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/utility/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/utility/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.demo.nopcommerce.cucumber.CukeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.demo.nopcommerce.cucumber.CukeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.demo.nopcommerce.cucumber.CukeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.demo.nopcommerce.cucumber.CukeTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/nopcommerce/cucumber/stepdefs/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demo/nopcommerce/cucumber/stepdefs/LoginSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +57,8 @@
       <recent name="C:\IdeaProjects\nopcommerce-bdd-cucumber\nopCommerce-Cucumber-Project\src\main\java\com\demo\nopcommerce" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Registration Feature Config">
-    <configuration name="CukeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CukeTest">
+    <configuration name="CukeTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="nopCommerce-Cucumber-Project" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +133,6 @@
       <item itemvalue="JUnit.CukeTest" />
       <item itemvalue="Maven.Registration Feature Config" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.CukeTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -196,31 +177,36 @@
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
     <state x="1271" y="-804" key="FileChooserDialogImpl/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1618264708537" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1618258971224">
-      <screen x="531" y="-1080" width="1920" height="1040" />
+    <state width="1323" height="218" key="GridCell.Tab.0.bottom" timestamp="1618612563305">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1618258971224" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1618258971224">
-      <screen x="531" y="-1080" width="1920" height="1040" />
+    <state width="1323" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-211.1366.728@0.0.1366.728" timestamp="1618612563305" />
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1618269269245" />
+    <state width="1323" height="218" key="GridCell.Tab.0.center" timestamp="1618612563304">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1618258971224" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1618258971224">
-      <screen x="531" y="-1080" width="1920" height="1040" />
+    <state width="1323" height="218" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-211.1366.728@0.0.1366.728" timestamp="1618612563304" />
+    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1618269269245" />
+    <state width="1323" height="218" key="GridCell.Tab.0.left" timestamp="1618612563304">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1618258971224" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1618258971224">
-      <screen x="531" y="-1080" width="1920" height="1040" />
+    <state width="1323" height="218" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-211.1366.728@0.0.1366.728" timestamp="1618612563304" />
+    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1618269269244" />
+    <state width="1323" height="218" key="GridCell.Tab.0.right" timestamp="1618612563305">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1618258971224" />
+    <state width="1323" height="218" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-211.1366.728@0.0.1366.728" timestamp="1618612563305" />
+    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1618269269245" />
     <state x="790" y="-1070" key="SettingsEditor" timestamp="1617045189735">
       <screen x="531" y="-1080" width="1920" height="1040" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/531.-1080.1920.1040@0.0.1366.728" timestamp="1616184654093" />
     <state x="790" y="-1070" key="SettingsEditor/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617045189735" />
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615753246555" />
-    <state x="1745" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1617994821864">
-      <screen x="1366" y="51" width="1366" height="728" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1618600222110">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1366.-211.1366.728@0.0.1366.728" timestamp="1618600222110" />
     <state x="1745" y="240" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.51.1366.728@1366.51.1366.728" timestamp="1617994821864" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/531.-1080.1920.1040@0.0.1366.728" timestamp="1616183973323" />
     <state x="1064" y="-810" key="com.intellij.ide.util.TipDialog/0.0.1366.728/531.-1080.1920.1040@531.-1080.1920.1040" timestamp="1617043994007" />

@@ -11,13 +11,13 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         //feature file path
         features = ".",
-                            //Creates Cucumber Report                    //creates Cucumber Extent Report
-        plugin = {"html:target/cucumber-report/cucumber.html", "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html", ""},
+        //Creates Cucumber Report                    //creates Cucumber Extent Report
+        plugin = {"html:target/cucumber-report/cucumber.html", "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html"},
         //true displays white font in console  //not mandatory but by default monochromes value is false so need to declare if you need it set as true
-        monochrome = true
+        monochrome = true,
         //tags assists with running tag specific feature file if you have multiple feature files
         //or tag specific scenario or scenarios
-        //tags = {"@regression","@smoke"}
+        tags = {"~@password"}
 )
 public class CukeTest {
 

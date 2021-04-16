@@ -1,22 +1,38 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/com/demo/nopcommerce/featurefile/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/com/demo/nopcommerce/featurefile/registration.feature");
 formatter.feature({
-  "line": 1,
-  "name": "User Login",
-  "description": "As a Registered User\r\nI want to specify log in condition",
-  "id": "user-login",
-  "keyword": "Feature"
+  "line": 2,
+  "name": "Registration Feature",
+  "description": "",
+  "id": "registration-feature",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@Registration"
+    }
+  ]
 });
 formatter.before({
-  "duration": 44827624800,
+  "duration": 36834277900,
   "status": "passed"
 });
 formatter.scenario({
   "line": 5,
-  "name": "Login page",
+  "name": "Verify error message when user tries to register account without entering first name",
   "description": "",
-  "id": "user-login;login-page",
+  "id": "registration-feature;verify-error-message-when-user-tries-to-register-account-without-entering-first-name",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@registerLink"
+    },
+    {
+      "line": 4,
+      "name": "@scenarioRegister"
+    }
+  ]
 });
 formatter.step({
   "line": 6,
@@ -25,67 +41,25 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "Login link  is present on the page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "User clicks on the log in link",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "User should navigate to relative page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "User should navigate to login page as should see \"Welcome, Please Sign In!\" message",
-  "keyword": "And "
+  "name": "User clicks on register link",
+  "keyword": "When "
 });
 formatter.match({
   "location": "LoginSteps.userIsOnHomePage()"
 });
 formatter.result({
-  "duration": 6667169500,
+  "duration": 1730965700,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginSteps.loginLinkIsPresentOnThePage()"
+  "location": "RegistrationSteps.userClicksOnRegisterLink()"
 });
 formatter.result({
-  "duration": 43300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.userClicksOnTheLogInLink()"
-});
-formatter.result({
-  "duration": 6038653900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.userShouldNavigateToRelativePage()"
-});
-formatter.result({
-  "duration": 42500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Welcome, Please Sign In!",
-      "offset": 50
-    }
-  ],
-  "location": "LoginSteps.userShouldNavigateToLoginPageAsShouldSeeMessage(String)"
-});
-formatter.result({
-  "duration": 1758287400,
+  "duration": 3239891000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3492839600,
+  "duration": 1610046100,
   "status": "passed"
 });
 });
